@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cz.blocshop.socketsforcordova": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
+        }
+    }
+}

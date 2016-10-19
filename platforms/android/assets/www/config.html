@@ -1,0 +1,49 @@
+<div data-page="config" class="page">
+  <div class="navbar">
+    <div class="navbar-inner">
+      
+      <div class="center">Configuring IoT Device</div>
+      
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="content-block">Your IoT device needs to connect to a Wifi Network. Send it the network info:</div>
+    <form id="config-form" action="#" method="GET" class="ajax-submit">
+    <div class="list-block inputs-list">
+      <ul>
+        <li>
+          <div class="item-content">            
+            <div class="item-inner"> 
+              <div class="item-title floating-label">SSID</div>
+              <div class="item-input">
+                <input id="ssid" type="text" placeholder=""  class="validate" required="" aria-required="true"/>
+              </div>
+            </div>
+          </div>
+        </li>        
+       
+        <li>
+          <div class="item-content">            
+            <div class="item-inner"> 
+              <div class="item-title floating-label">Password</div>
+              <div class="item-input">
+                <input id="pass" type="password" placeholder="" class="validate" required="" aria-required="true"/>
+              </div>
+            </div>
+          </div>
+        </li>
+      
+      </ul>
+    </div>
+    <div class="content-block">
+      <p class="buttons-row"><button type="submit" id="send" class="button button-raised button-fill">Send</button></p>
+    </div>
+    </form>
+    <div class="content-block">
+        <center>
+            <p style="line-height: 15px; text-align: center; vertical-align: middle;"><img src="./img/nubix.png" style="width: 35px; height: auto; margin-right: 5px;"> Powered by <img src="./img/nubix3.png" style="width: auto; height: 15px;"> </p>
+        </center>
+    </div>
+    
+  </div>
+</div>
