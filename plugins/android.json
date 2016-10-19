@@ -34,9 +34,6 @@
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
         },
-        "cordova.plugins.diagnostic": {
-            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
-        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
         }

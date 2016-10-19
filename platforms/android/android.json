@@ -109,22 +109,12 @@
                             "count": 1
                         }
                     ],
-                    "/manifest/application": [
-                        {
-                            "xml": "<receiver android:name=\"cordova.plugins.Diagnostic$LocationProviderChangedReceiver\"><intent-filter><action android:name=\"android.location.PROVIDERS_CHANGED\" /></intent-filter></receiver>",
-                            "count": 1
-                        }
-                    ]
+                    "/manifest/application": []
                 }
             },
             "config.xml": {
                 "parents": {
-                    "/*": [
-                        {
-                            "xml": "<feature name=\"Diagnostic\"><param name=\"android-package\" value=\"cordova.plugins.Diagnostic\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        }
-                    ]
+                    "/*": []
                 }
             }
         }
@@ -161,9 +151,6 @@
             "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
         },
         "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
-        },
-        "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "br.com.nubix.cordova.wifisettings"
         },
         "cordova-plugin-whitelist": {
@@ -447,14 +434,6 @@
             "clobbers": [
                 "navigator.globalization"
             ]
-        },
-        {
-            "id": "cordova.plugins.diagnostic.Diagnostic",
-            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
-            "pluginId": "cordova.plugins.diagnostic",
-            "clobbers": [
-                "cordova.plugins.diagnostic"
-            ]
         }
     ],
     "plugin_metadata": {
@@ -469,7 +448,6 @@
         "com.pylonproducts.wifiwizard": "0.2.11",
         "cordova-plugin-dialogs": "1.3.1-dev",
         "cordova-plugin-globalization": "1.0.5-dev",
-        "cordova.plugins.diagnostic": "3.2.2",
         "cordova-plugin-whitelist": "1.3.0"
     }
 }
