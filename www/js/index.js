@@ -75,9 +75,25 @@ var network;
 //how many times it tried to send network info to the device
 var sendTries;
 
+//asks for local permission (to list wifi networks)
+function localPermission () {
+    cordova.plugins.diagnostic.getLocationAuthorizationStatus(function(status){
+        console.log (status);
+        if(status != "GRANTED"){    
+            cordova.plugins.diagnostic.requestLocationAuthorization(function(status){
+                    if(status != "GRANTED"){
+                        navigator.app.exitApp();
+                    }
+                }, function(error){
+                    console.error(error);
+            });
+        }
+    }, wifiError);
+}
+
 //state 0 - check if wifi is ON - if is not, turn it on
 function wifiOnDeviceReady  () {
-    
+    localPermission ();
     //try to turn on the wifi in the cellphone
     WifiWizard.isWifiEnabled(function (enabled) {
         if (enabled == false) {

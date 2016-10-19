@@ -30,6 +30,10 @@
     <feature name="Globalization">
         <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
     </feature>
+    <feature name="Diagnostic">
+        <param name="android-package" value="cordova.plugins.Diagnostic" />
+        <param name="onload" value="true" />
+    </feature>
     <name>Nubix</name>
     <description>
         An App to send network settings (ssid e pass) to IoT devices

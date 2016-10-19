@@ -275,6 +275,14 @@ module.exports = [
         "clobbers": [
             "navigator.globalization"
         ]
+    },
+    {
+        "id": "cordova.plugins.diagnostic.Diagnostic",
+        "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+        "pluginId": "cordova.plugins.diagnostic",
+        "clobbers": [
+            "cordova.plugins.diagnostic"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -291,6 +299,7 @@ module.exports.metadata =
     "com.pylonproducts.wifiwizard": "0.2.11",
     "cordova-plugin-dialogs": "1.3.1-dev",
     "cordova-plugin-globalization": "1.0.5-dev",
+    "cordova.plugins.diagnostic": "3.2.2",
     "cordova-plugin-whitelist": "1.3.0"
 };
 // BOTTOM OF METADATA
